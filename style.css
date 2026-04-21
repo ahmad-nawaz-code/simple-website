@@ -1,0 +1,95 @@
+.*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  height: 100px;
+  width: 100%;
+  background-color: rgba(28,22,14,0.918);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.menu{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+
+}
+.menu a{
+text-decoration: none;
+color: white;
+padding: 5px;
+}
+.header h2{
+padding-top: 10px;
+}
+button{
+border: none;
+}
+.intro{
+  padding: 100px 20px;
+  background-color: grey;
+  text-align: center;
+}
+.hire{
+  background-color: red;
+  font-size: 20px;
+}
+  .hire:hover{
+    background-color: green;
+  }
+.about{
+  text-align: center;
+  padding: 40px;
+  
+}
+.project{
+  padding-top: 100px;
+  text-align: center;
+}
+.project button{
+  width: 70%;
+  height: 50px;
+  margin: 10px;
+}
+.project button:hover{
+  background-color: red;
+  transform: translatey(-10px);
+}
+.info{
+  text-align: center;
+}
+.info input{
+  height: 30px;
+  width: 230px;
+  font-size: 16px;
+  margin: 10px;
+}
+.send{
+  display: flex;
+  justify-content: center;
+}
+.sbut{
+  background-color: green;
+  font-size: 20px;
+}
+.sbut:hover{
+background-color: blue;
+}
+footer{
+  height: 50px;
+  color: white;
+  background-color: black;
+  
+}
+.foot{
+  text-align: center;
+}
+.foot h3{
+  padding-top: 10px;
+}
